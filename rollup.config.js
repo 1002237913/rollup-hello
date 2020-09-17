@@ -17,7 +17,7 @@ export default {
     },
     {
       name: "RollupHello",
-      file: pkg.browser,
+      file: pkg.iife,
       format: "iife",
       exports: "default",
     },

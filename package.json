@@ -1,10 +1,10 @@
 {
   "name": "rollup-hello",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/rollup-hello.umd.js",
   "cjs": "dist/rollup-hello.cjs.js",
-  "browser": "dist/rollup-hello.browser.js",
+  "iife": "dist/rollup-hello.iife.js",
   "typings": "types/Hello.d.ts",
   "files": [
     "dist/",
