@@ -1,0 +1,25 @@
+{
+  "name": "rollup-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/rollup-hello.umd.js",
+  "cjs": "dist/rollup-hello.cjs.js",
+  "browser": "dist/rollup-hello.browser.js",
+  "files": [
+    "dist",
+    "types",
+    "!demo"
+  ],
+  "scripts": {
+    "build": "rollup -c & tsc src/Hello.ts --emitDeclarationOnly --declarationDir types -d"
+  },
+  "keywords": [],
+  "author": "Hunter",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "6.0.0",
+    "rollup": "2.27.1",
+    "tslib": "2.0.1",
+    "typescript": "4.0.2"
+  }
+}
