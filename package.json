@@ -6,8 +6,8 @@
   "cjs": "dist/rollup-hello.cjs.js",
   "browser": "dist/rollup-hello.browser.js",
   "files": [
-    "dist",
-    "types",
+    "dist/",
+    "types/",
     "!demo"
   ],
   "scripts": {

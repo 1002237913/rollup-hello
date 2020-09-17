@@ -8,5 +8,6 @@ export default class Hello {
     static HumanSpeaker: typeof HumanSpeaker;
     speaker: Speaker;
     constructor(speaker: Speaker);
+    setSpeaker(speaker: Speaker): void;
     speak(): String;
 }

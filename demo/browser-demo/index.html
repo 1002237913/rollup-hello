@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../../dist/rollup-hello.browser.js"></script>
+  </head>
+  <body>
+    <h1 id="h1"></h1>
+    <h1 id="h2"></h1>
+    <h1 id="h3"></h1>
+  </body>
+
+  <script>
+    var hello = new RollupHello(new RollupHello.DogSpeaker());
+    document.getElementById("h1").innerHTML = hello.speak();
+
+    hello.setSpeaker(new RollupHello.CatSpeaker());
+    document.getElementById("h2").innerHTML = hello.speak();
+
+    var humanSpeaker = new RollupHello.HumanSpeaker({ type: "Baby" });
+    hello.setSpeaker(humanSpeaker);
+    document.getElementById("h3").innerHTML = hello.speak();
+  </script>
+</html>

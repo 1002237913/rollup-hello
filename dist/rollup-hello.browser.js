@@ -47,6 +47,9 @@ var RollupHello = (function () {
         function Hello(speaker) {
             this.speaker = speaker;
         }
+        Hello.prototype.setSpeaker = function (speaker) {
+            this.speaker = speaker;
+        };
         Hello.prototype.speak = function () {
             return this.speaker.speak();
         };

@@ -12,6 +12,9 @@ export default class Hello {
   constructor(speaker: Speaker) {
     this.speaker = speaker;
   }
+  setSpeaker(speaker: Speaker) {
+    this.speaker = speaker;
+  }
   speak(): String {
     return this.speaker.speak();
   }
