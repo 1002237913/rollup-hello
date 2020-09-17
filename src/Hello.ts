@@ -4,9 +4,9 @@ import { HumanSpeaker } from "./HumanSpeaker";
 import { Speaker } from "./Speaker";
 
 export default class Hello {
-  public static CatSpeaker = CatSpeaker;
-  public static DogSpeaker = DogSpeaker;
-  public static HumanSpeaker = HumanSpeaker;
+  public static CatSpeaker: typeof CatSpeaker = CatSpeaker;
+  public static DogSpeaker: typeof DogSpeaker = DogSpeaker;
+  public static HumanSpeaker: typeof HumanSpeaker = HumanSpeaker;
 
   speaker: Speaker;
   constructor(speaker: Speaker) {
