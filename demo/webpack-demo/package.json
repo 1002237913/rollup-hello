@@ -9,7 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "rollup-hello": "file:../../"
+    "rollup-hello": "git+https://github.com/1002237913/rollup-hello.git#master"
   },
   "scripts": {
     "start": "react-scripts start",

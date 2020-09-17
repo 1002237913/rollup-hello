@@ -5,10 +5,10 @@
   "main": "dist/rollup-hello.umd.js",
   "cjs": "dist/rollup-hello.cjs.js",
   "browser": "dist/rollup-hello.browser.js",
+  "typings": "types/Hello.d.ts",
   "files": [
     "dist/",
-    "types/",
-    "!demo"
+    "types/"
   ],
   "scripts": {
     "build": "rollup -c & tsc src/Hello.ts --emitDeclarationOnly --declarationDir types -d"

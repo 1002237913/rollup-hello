@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rollup-hello": "file:../../"
+    "rollup-hello": "git+https://github.com/1002237913/rollup-hello.git#master"
   }
 }
